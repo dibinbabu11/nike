@@ -1,0 +1,52 @@
+
+.card-body{
+    background-color: coral;
+}
+.header{
+    height: 2000px;
+    width: 100%;
+}
+.card-img-top{
+    height: 100px;
+}
+.img-box{
+    width: 100px;
+}
+.carousel-item{
+    height: 500px;
+}
+h5{
+    color: rgb(18, 19, 20);
+}
+.container{
+    background-color: rgb(94, 124, 124);
+}
+.abcd{
+    background-color: rgb(57, 71, 83);
+}
+.card-title{
+    color: rgb(12, 13, 14);
+}
+/* cart */
+.my_custom_table{
+    min-width: 400px;
+    font-size: 14px;
+}
+.my_custom_thead{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    background-color: blanchedalmond;
+}
+.custom_a{
+    text-decoration: none;
+}
+.custom_icon{
+    text-decoration: none;
+    color: blueviolet;
+}
+.my_custom_button{}
+@media  screen and (max-width=600px) {
+    
+    
+}

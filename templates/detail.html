@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+{% include 'navbar.html' %}
+<div class="container">
+    <div class="row" >
+      <div class="col-md-6">
+        <img class="card-e-top" src='{{nikeshoe.image.url}}'  width="500" height="500" alt="Card image cap">
+
+      </div>
+      <div class="card" style="width: 18rem; height: 20px;">
+        <div class="card-body">
+          <h5 class="card-title">name:{{ nikeshoe.name }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted"> price:{{nikeshoe.price}}</h6>
+          <p class="card-text"> details:{{ nikeshoe.description }}</p>
+          <a href="{% url 'cart:add_cart' nikeshoe.id %}" class="btn btn-primary">ADD TO CART</a><br><br>
+          <a href="{% url 'index' %}" class="btn btn-primary">HOME</a><br><br>
+          <a href="{% url 'card' %}" class="btn btn-secondary">Back</a>
+        </div>
+      </div>
+    </div>
+</div>
+  {% endblock %}
