@@ -36,3 +36,7 @@ def detail(request,id):
 def card(request):
     nikeshoe=Nikeshoe.objects.all()
     return render(request,'card.html',{'nikeshoe':nikeshoe})
+
+
+def home(request):
+    return render(request,'home.html')
